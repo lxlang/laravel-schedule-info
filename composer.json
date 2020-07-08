@@ -1,7 +1,7 @@
 {
     "name": "lxlang/laravel-schedule-info",
     "description": "A command to output your current laravel schedule in a human readable format.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "keywords": [
         "laravel",
