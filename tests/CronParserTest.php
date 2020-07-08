@@ -9,6 +9,9 @@ use PHPUnit\Framework\TestCase;
 
 class CronParserTest extends TestCase
 {
+    /**
+     * @covers \LxLang\LaravelScheduleInfo\CronParser
+     */
     public function testParse()
     {
         Carbon::setTestNow(
