@@ -18,7 +18,7 @@
         "php": ">=7.4",
         "illuminate/support": "^5.5|^6|^7",
         "illuminate/console": "^5.5|^6|^7",
-        "dragonmantank/cron-expression": "^3.0",
+        "dragonmantank/cron-expression": "^2.0",
         "lorisleiva/cron-translator": "^0.1.1"
     },
     "require-dev": {
