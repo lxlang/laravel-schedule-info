@@ -39,7 +39,7 @@ class ScheduleInfoCommand extends Command
                     'expression' => $cron->getExpression(),
                     'command' => static::formatCommand($event->command),
                     'when' => $cron->getTranslation(),
-                    'next_due' => $cron->getNext(),
+                    'next_due' => $cron->getNext()->diffForHumans(),
                 ];
             })
             /*
