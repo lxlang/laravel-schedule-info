@@ -8,6 +8,6 @@ before_script:
 jobs:
   include:
     - name: phpunit
-      script: composer run phpunit
+      script: composer run test
     - name: phpcs
       script: composer run check-style
