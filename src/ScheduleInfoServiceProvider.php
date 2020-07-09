@@ -3,6 +3,7 @@
 namespace LxLang\LaravelScheduleInfo;
 
 use Illuminate\Support\ServiceProvider;
+use LxLang\LaravelScheduleInfo\Command\ScheduleInfoCommand;
 
 class ScheduleInfoServiceProvider extends ServiceProvider
 {
